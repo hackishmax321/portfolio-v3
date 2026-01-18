@@ -3,7 +3,7 @@ import { AiOutlineRightSquare } from 'react-icons/ai'
 import ProjectDetails from './ProjectDetails'
 
 
-function Project({ project, setPreview, isMouseInSection }) {
+function Project({ project, setPreview, isMouseInSection, setIsModalOpen }) {
   const [hideModal, setHideModal] = useState(false)
   
   
@@ -11,6 +11,7 @@ function Project({ project, setPreview, isMouseInSection }) {
   const hasTags = project && project.tags && project.tags.length > 0
   const showModel = () => {
     setHideModal(!hideModal)
+    setIsModalOpen(!hideModal)
   }
 
   return (

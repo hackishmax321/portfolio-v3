@@ -10,7 +10,7 @@ import CVButton from '../plugins/buttons/CVButton'
 function About() {
   const grid2Container = useRef()
   return (
-    <section className='c-space section-spacing' id='profile'>
+    <section className='c-space pt-26' id='profile'>
         <h2 className='text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-linear-to-r from-blue-400 to-purple-600'>About Me</h2>
         <p className="text-gray-300 subtext">Personal & Professional details of me</p>
         <div className="grid grid-cols-1 md:grid-cols-6 md:auto-rows-[18rem] mt-12 gap-1.5">
@@ -31,12 +31,12 @@ function About() {
                 </p>
                 <p>
                     A Software Engineering graduate from Plymouth University, hosted by NSBM Green University in Sri Lanka. 
-                    With professional experience in both backend and frontend development roles, I specialize in JavaScript and Python frameworks. 
-                    My career includes positions at RRD GO and CeylonLabs, where I delivered robust digital solutions. 
+                    With professional experience in both backend and frontend development roles, I specialize in JavaScript and Python Frameworks
+                    to deliver robust digital solutions. 
                 </p>
-                <p>
+                {/* <p>
                     Currently, I work as a freelance developer, bringing enterprise-level expertise to independent projects.
-                </p>
+                </p> */}
             </div>
             <div className='absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-linear-to-t from-indigo z-20' />
         </div>
@@ -47,23 +47,23 @@ function About() {
 
                   <Card  
                     text={'Design Patterns'}
-                    styles={{top: '2%', left: '1%', rotate: '15deg'}}
+                    styles={{top: '2%', left: '-13%', rotate: '15deg'}}
                     containerRef={grid2Container}
                   />
                   <Card  
                     text={'Creativity'}
-                    styles={{top: '-10%', left: '2%', rotate: '25deg'}}
+                    styles={{top: '-9%', left: '-2%', rotate: '0deg'}}
                     containerRef={grid2Container}
                   />
                   <Card  
                     text={'User Experience'}
-                    styles={{top: '-30%', left: '3%', rotate: '25deg'}}
+                    styles={{top: '-45%', left: '-15%', rotate: '25deg'}}
                     contain
                     erRef={grid2Container}
                   />
                   <Card  
                     text={'Deployment & Hosting'}
-                    styles={{top: '-60%', left: '7%', rotate: '25deg'}}
+                    styles={{top: '-60%', left: '7%', rotate: '-25deg'}}
                     contain
                   />
                   <Card  
@@ -73,22 +73,22 @@ function About() {
                   />
                   <Card  
                     text={'Quality Asuarance'}
-                    styles={{top: '20%', left: '30%', rotate: '55deg'}}
+                    styles={{top: '-10%', left: '37%', rotate: '-5deg'}}
                     containerRef={grid2Container}
                   />
                   <Card  
                     image={'/images/react.png'}
-                    styles={{top: '10%', left: '20%', rotate: '15deg'}}
+                    styles={{top: '10%', left: '29%', rotate: '15deg'}}
                     containerRef={grid2Container}
                   />
                   <Card  
                     image={'/images/node.png'}
-                    styles={{top: '0%', left: '10%', rotate: '25deg'}}
+                    styles={{top: '-30%', left: '50%', rotate: '-25deg'}}
                     containerRef={grid2Container}
                   />
                   <Card  
                     image={'/images/three-js.png'}
-                    styles={{top: '0%', left: '10%', rotate: '25deg'}}
+                    styles={{top: '0%', left: '-29%', rotate: '25deg'}}
                     containerRef={grid2Container}
                   />
                   <Card  
@@ -310,7 +310,7 @@ function About() {
                -translate-x-1/2 -translate-y-1/2
                scale-[1.75] md:scale-[3] lg:scale-[1.5]
                z-0 filter brightness-70' />
-               <div className='absolute z-101 bottom-1 inset-x-0 flex justify-center'>
+               <div className='absolute z-19 bottom-1 inset-x-0 flex justify-center'>
                 <CVButton />
                </div>
               <div className='z-10 w-[50%] text-left'>

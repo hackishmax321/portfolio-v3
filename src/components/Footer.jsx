@@ -118,7 +118,7 @@ function Footer() {
                     </Canvas>
                   </div>
                   <p className='subtext'>Visit Us</p>
-                  <Link to={''} target='_blank'>Official Website</Link>
+                  <Link to={'https://software-tech-solutions.onrender.com/'} target='_blank'>Official Website</Link>
                 </div>
               </div>
             </div>

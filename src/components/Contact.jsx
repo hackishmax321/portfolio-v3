@@ -18,11 +18,11 @@ function Contact() {
   }
 
   return (
-    <section className='relative flex-col justify-center items-center c-spacing sector-spacing'>
-        <h2 className='text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-linear-to-r from-blue-400 to-purple-600'>Let's Talk</h2>
+    <section className='relative flex-col justify-center items-center c-spacing sector-spacing' id='contact'>
+        <h2  className='text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-linear-to-r from-blue-400 to-purple-600'>Let's Talk</h2>
         <p className="text-gray-300 subtext">Send queries and other using form below</p>
         <br></br>
-        <div className='flex flex-col items-center justify-center max-w-md p-5 mx-auto border rounded-2xl border-white/10 bg-primary'>
+        <div  className='flex flex-col items-center justify-center max-w-md p-5 mx-auto border rounded-2xl border-white/10 bg-primary'>
           <form className='w-full text-left' onSubmit={handleSubmit}>
             <div className='mb-5'>
               <label htmlFor='name' className='field-label'>Full Name</label>

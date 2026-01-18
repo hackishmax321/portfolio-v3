@@ -8,6 +8,7 @@ import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { BrowserRouter as Router } from 'react-router-dom'
+import ContactModel from './components/ContactModel'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,7 +27,7 @@ function App() {
             <About />
             <Experience /> 
             <Projects />
-            <Contact />
+            <ContactModel />
           </div>
         </div>
         
