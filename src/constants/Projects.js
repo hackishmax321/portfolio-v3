@@ -103,6 +103,43 @@ const projects = [
   },
   {
     id: 1,
+    title: "Leopard Tracking Safari Service",
+    description: "A modern safari booking platform for Leopard Tracking, designed to help travelers easily discover and book authentic wildlife safaris in Sri Lanka with expert guides, immersive experiences, and a seamless browsing experience across devices.",
+    longDescription: "Leopard Tracking is a digital platform developed to showcase and manage authentic Sri Lankan safari experiences, allowing wildlife enthusiasts and travelers to easily explore and book guided adventures. Built with a responsive and user-centric design, the website provides an engaging interface where visitors can discover safari packages, learn about expert guides, and connect directly with the service for personalized wildlife experiences. Inspired by the spirit of adventure and conservation, the platform highlights the unique beauty of Sri Lanka’s national parks, particularly the world-famous leopard habitats of Yala. Users can explore safari packages, learn about wildlife tracking, and view detailed information about the guide’s experience, certifications, and achievements. The website includes features such as a visually immersive landing page, responsive design optimized for desktop and mobile devices, smooth navigation for browsing safari services, secure user login functionality, and direct contact options for booking safaris. With a focus on authentic wildlife encounters and responsible eco-tourism, the Leopard Tracking platform helps travelers connect with nature while supporting sustainable safari tourism in Sri Lanka.",
+    tags: [
+      techTags.find(t => t.name === "JavaScript"),
+      techTags.find(t => t.name === "React"),
+      techTags.find(t => t.name === "Node.js"),
+      techTags.find(t => t.name === "Firebase"),
+      techTags.find(t => t.name === "HTML5"),
+      techTags.find(t => t.name === "CSS3"),
+      techTags.find(t => t.name === "TailwindCSS"),
+      techTags.find(t => t.name === "GitHub")
+    ].filter(Boolean),
+    images: [
+      "leopard-logo.jpg",
+      "Screenshot_2026_03_13-15.png",
+      "Screenshot_2026_03_13-16.png",
+      "Screenshot_2026_03_13-17.png",
+      "Screenshot_2026_03_13-18.png",
+      "Screenshot_2026_03_13-19.png",
+      
+    ],
+    features: [
+      "User-friendly web design with slick layout",
+      "Responsive mobile-first design for seamless shopping on all devices",
+      "Orders management with real-time status tracking",
+      "Promotions and indetail services",
+      "Customer contact messages and inquiry management",
+    ],
+    github: "https://github.com/hackishmax321/react-vite-tailwindcss-template.git",
+    live: "https://www.facebook.com/share/v/1H1LiMEdcz/",
+    status: "Live",
+    year: 2026,
+    category: "Web Application"
+  },
+  {
+    id: 2,
     title: "Vehicle Renting Service",
     description: "An all-in-one vehicle renting service platform in Australia, offering seamless booking of cars, vans, and other vehicles. Features include real-time availability, secure user authentication, rental history tracking, and integrated payment processing for a smooth and convenient rental experience.",
     longDescription: "Cairns Car Rentals is a comprehensive vehicle rental platform designed to simplify the car rental process. The platform features a responsive design, real-time vehicle availability tracking, secure user authentication, and integrated Stripe payment processing. Users can browse vehicles by category, view detailed specifications, make reservations, and manage their rental history through an intuitive dashboard.",
@@ -140,45 +177,6 @@ const projects = [
     category: "Web Application"
   },
   {
-    id: 2,
-    title: "Education App for Disabled",
-    description: "An education app that evaluates a user's knowledge through a tech-based survey, determines their proficiency level, and delivers personalized lessons and tests to enhance their skills progressively.",
-    longDescription: "An inclusive educational platform designed specifically for individuals with disabilities. The application uses adaptive learning algorithms to assess users' current knowledge levels and provides personalized learning paths. Features include accessibility tools like screen readers, voice commands, and customizable UI for various disabilities. The platform continuously adapts difficulty levels based on user performance.",
-    tags: [
-      techTags.find(t => t.name === "React"),
-      techTags.find(t => t.name === "Python"),
-      techTags.find(t => t.name === "MongoDB"),
-      techTags.find(t => t.name === "Jupyter"),
-      techTags.find(t => t.name === "Node.js"),
-      techTags.find(t => t.name === "Express.js"),
-      techTags.find(t => t.name === "TensorFlow"),
-      techTags.find(t => t.name === "HTML5"),
-      techTags.find(t => t.name === "CSS3"),
-      techTags.find(t => t.name === "Git"),
-      techTags.find(t => t.name === "GitHub")
-    ].filter(Boolean),
-    images: [
-      "edu-logo.png",
-      "Screenshot_2025_07_14-14.png",
-      "Screenshot_2025_07_14-12.png",
-      "Screenshot_2025_07_14-10.png"
-    ],
-    features: [
-      "Adaptive learning algorithm",
-      "Accessibility features (screen reader, voice commands)",
-      "Personalized learning paths",
-      "Progress tracking & analytics",
-      "Gamified learning experience",
-      "Multi-language support",
-      "Admin dashboard for content management"
-    ],
-    github: "https://github.com/pyxlelab/education-disabled-app.git",
-    live: "https://eduspecial.app",
-    status: "In Development",
-    year: 2024,
-    category: "Web Application"
-  },
-  {
     id: 3,
     title: "Cattle Management System",
     description: "This application enables farmers, veterinarians, and provincial administrators to efficiently manage cattle records, track milk production, detect diseases using AI-powered image classification, and forecast future milk yields based on weather and historical data via machine learning regression models.",
@@ -199,8 +197,8 @@ const projects = [
     ].filter(Boolean),
     images: [
       "catlem-logo.png",
-      "Screenshot_2025_07_14-2.png",
       "Screenshot_2025_07_14-5.png",
+      "Screenshot_2025_07_14-2.png",
       "Screenshot_2025_07_14-8.png"
     ],
     features: [
@@ -220,6 +218,45 @@ const projects = [
     status: "Live",
     year: 2024,
     category: "Full Stack + AI"
+  },
+  {
+    id: 4,
+    title: "Education App for Disabled",
+    description: "An education app that evaluates a user's knowledge through a tech-based survey, determines their proficiency level, and delivers personalized lessons and tests to enhance their skills progressively.",
+    longDescription: "An inclusive educational platform designed specifically for individuals with disabilities. The application uses adaptive learning algorithms to assess users' current knowledge levels and provides personalized learning paths. Features include accessibility tools like screen readers, voice commands, and customizable UI for various disabilities. The platform continuously adapts difficulty levels based on user performance.",
+    tags: [
+      techTags.find(t => t.name === "React"),
+      techTags.find(t => t.name === "Python"),
+      techTags.find(t => t.name === "MongoDB"),
+      techTags.find(t => t.name === "Jupyter"),
+      techTags.find(t => t.name === "Node.js"),
+      techTags.find(t => t.name === "Express.js"),
+      techTags.find(t => t.name === "TensorFlow"),
+      techTags.find(t => t.name === "HTML5"),
+      techTags.find(t => t.name === "CSS3"),
+      techTags.find(t => t.name === "Git"),
+      techTags.find(t => t.name === "GitHub")
+    ].filter(Boolean),
+    images: [
+      "edu-logo.png",
+      "Screenshot_2025_07_14-12.png",
+      "Screenshot_2025_07_14-14.png",
+      "Screenshot_2025_07_14-10.png"
+    ],
+    features: [
+      "Adaptive learning algorithm",
+      "Accessibility features (screen reader, voice commands)",
+      "Personalized learning paths",
+      "Progress tracking & analytics",
+      "Gamified learning experience",
+      "Multi-language support",
+      "Admin dashboard for content management"
+    ],
+    github: "https://github.com/pyxlelab/education-disabled-app.git",
+    live: "https://eduspecial.app",
+    status: "In Development",
+    year: 2024,
+    category: "Web Application"
   },
   // {
   //   id: 4,
