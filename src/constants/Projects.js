@@ -24,7 +24,9 @@ const techIcons = {
   github: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   render: "https://cdn.worldvectorlogo.com/logos/render-dot-io.svg",
   railway: "https://cdn.worldvectorlogo.com/logos/railway-3.svg",
-  docker: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+  docker: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+  react: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  tailwindcss: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
 };
 
 // Available tech tags with IDs and paths
@@ -53,10 +55,52 @@ const techTags = [
   { id: 22, name: "GitHub", path: techIcons.github },
   { id: 23, name: "Render", path: techIcons.render },
   { id: 24, name: "Railway", path: techIcons.railway },
-  { id: 25, name: "Docker", path: techIcons.docker }
+  { id: 25, name: "Docker", path: techIcons.docker },
+  { id: 26, name: "TailwindCSS", path: techIcons.tailwindcss },
 ];
 
 const projects = [
+  {
+    id: 0,
+    title: "Savemo Ecommerce Platform",
+   description: "A modern digital grocery platform for SaveMo, built to help customers buy more and save more with easy online browsing, smart inventory management, and a seamless shopping experience across devices.",
+   longDescription: "SaveMo.lk is a comprehensive digital platform developed for the SaveMo grocery network, designed to bring Sri Lanka’s trusted neighborhood grocery store experience online. Built with a mobile-first approach and a clean user-centric interface, the platform allows customers to easily browse grocery products, explore categories, and enjoy a smooth and efficient shopping experience from any device. Inspired by the SaveMo slogan 'Buy More Save More', the system focuses on accessibility, convenience, and affordability for everyday shoppers. The platform includes features such as responsive design for mobile and desktop devices, an intuitive product browsing system, scalable architecture for future expansion, and a modern dashboard for store management including inventory tracking, orders management, promotions, and customer interactions. Founded in 2010 as a small family-run grocery store in Wattala by Mr. Kamal Perera, SaveMo has grown into a trusted grocery network with multiple branches across Sri Lanka’s Western Province. Today, the digital platform supports SaveMo’s mission of delivering fresh, affordable, and high-quality grocery products to thousands of households while strengthening partnerships with local farmers and producers who supply over 70% of the store’s products.",
+   tags: [
+      techTags.find(t => t.name === "JavaScript"),
+      techTags.find(t => t.name === "React"),
+      techTags.find(t => t.name === "Node.js"),
+      techTags.find(t => t.name === "Firebase"),
+      techTags.find(t => t.name === "HTML5"),
+      techTags.find(t => t.name === "CSS3"),
+      techTags.find(t => t.name === "TailwindCSS"),
+      techTags.find(t => t.name === "GitHub")
+    ].filter(Boolean),
+    images: [
+      "UI_Banner_savemo.png",
+      "Screenshot_2026_03_13-3.png",
+      "Screenshot_2026_03_13-4.png",
+      "Screenshot_2026_03_13-6.png",
+      "Screenshot_2026_03_13-7.png",
+      "Screenshot_2026_03_13-13.png",
+      "Screenshot_2026_03_13-10.png",
+      
+    ],
+    features: [
+      "User-friendly grocery browsing and product search",
+      "Responsive mobile-first design for seamless shopping on all devices",
+      "Inventory and stock management system",
+      "Orders management with real-time status tracking",
+      "Promotions and discount management",
+      "Admin dashboard with analytics and store insights",
+      "Customer contact messages and inquiry management",
+      "PayHere (lk) payment gateway integration",
+    ],
+    github: "https://github.com/hackishmax321/savemo-grocery-web.git",
+    live: "https://savemo.lk/",
+    status: "Live",
+    year: 2026,
+    category: "Web Application"
+  },
   {
     id: 1,
     title: "Vehicle Renting Service",

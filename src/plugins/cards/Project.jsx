@@ -39,8 +39,23 @@ function Project({ project, setPreview, isMouseInSection, setIsModalOpen }) {
             ))}
           </div>
         </div>
+        <br/>
         
-        <button className='flex items-center gap-1 cursor-pointer hover-animation group' onClick={showModel}>
+        <button className='
+            flex items-center gap-2 
+            px-6 py-3 
+            bg-gradient-to-r from-amber-600 to-amber-500 
+            hover:from-amber-500 hover:to-amber-400
+            text-white font-semibold 
+            rounded-lg 
+            shadow-lg hover:shadow-xl 
+            transform hover:scale-105 
+            transition-all duration-300 ease-in-out
+            cursor-pointer 
+            group
+            border-2 border-amber-400/20
+            hover:border-amber-300
+          ' onClick={showModel}>
           More Details
           <AiOutlineRightSquare className='w-5 transition-transform group-hover:translate-x-1' />
         </button>
