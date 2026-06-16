@@ -77,12 +77,16 @@ const projects = [
     ].filter(Boolean),
     images: [
       "UI_Banner_savemo.png",
-      "Screenshot_2026_03_13-3.png",
-      "Screenshot_2026_03_13-4.png",
-      "Screenshot_2026_03_13-6.png",
-      "Screenshot_2026_03_13-7.png",
-      "Screenshot_2026_03_13-13.png",
-      "Screenshot_2026_03_13-10.png",
+      "sceene (1).png",
+      "sceene (2).png",
+      "sceene (3).png",
+      "sceene (4).png",
+      "sceene (5).png",
+      "sceene (6).png",
+      "sceene (7).png",
+      "sceene (8).png",
+      "sceene (9).png",
+      "sceene (10).png",
       
     ],
     features: [
@@ -94,8 +98,9 @@ const projects = [
       "Admin dashboard with analytics and store insights",
       "Customer contact messages and inquiry management",
       "PayHere (lk) payment gateway integration",
+      "Optimized SEO"
     ],
-    github: "https://github.com/hackishmax321/savemo-grocery-web.git",
+    github: "https://github.com/hackishmax321/savemo-ecom-web-react-seo-optimized.git",
     live: "https://savemo.lk/",
     status: "Live",
     year: 2026,
