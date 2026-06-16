@@ -7,9 +7,9 @@ function Frameworks() {
       
       {/* Frontend */}
       <OrbitingLogos>
-        <Icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" />
+        <Icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/960px-React-icon.svg.png" />
         <Icon src="https://cdn.worldvectorlogo.com/logos/next-js.svg" />
-        <Icon src="https://icon-icons.com/download-file?file=https%3A%2F%2Fimages.icon-icons.com%2F2415%2FPNG%2F512%2Fangularjs_plain_logo_icon_146647.png&id=146647&pack_or_individual=pack" />
+        <Icon src="https://images.icon-icons.com/2415/PNG/512/angularjs_plain_logo_icon_146647.png" />
         {/* <Icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/1745px-Android_robot.svg.png" /> */}
         <Icon src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" />
         <Icon src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/25082439/reactnative-inner.svg" />
