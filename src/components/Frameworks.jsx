@@ -15,7 +15,7 @@ function Frameworks() {
         <Icon src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/25082439/reactnative-inner.svg" />
         <Icon src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" />
         <Icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/960px-Tensorflow_logo.svg.png" />
-        <Icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Three.js_Icon.svg/2048px-Three.js_Icon.svg.png" />
+        <Icon src="https://images.seeklogo.com/logo-png/43/2/three-js-logo-png_seeklogo-431124.png" />
         <Icon src="https://vite.dev/logo.svg" />
       </OrbitingLogos>
 
